@@ -2,7 +2,7 @@
 <br>
 <br>
 <div align="center">
-  <img src="https://i.imgur.com/WH0kYVK.png" width="250px" />
+  <img src="https://i.imgur.com/2vnaNkL.png" width="300px" />
 </div>
 <br>
 <br>
