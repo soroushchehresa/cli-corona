@@ -1,3 +1,11 @@
+<br>
+
+<div align="center">
+  <img src="https://i.imgur.com/WH0kYVK.png" width="250px" />
+</div>
+
+<br>
+
 # Coronavirus CLI 
 [![NPM](https://img.shields.io/npm/v/cli-corona.svg)](https://www.npmjs.com/package/cli-corona)
 ![npm](https://img.shields.io/npm/dt/cli-corona)
