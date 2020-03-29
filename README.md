@@ -1,7 +1,7 @@
 # Coronavirus CLI
 > Coronavirus statistics in the command line.
 
-<img src="https://i.imgur.com/aevNYdC.gif" width="100%" />
+<img src="https://i.imgur.com/aevNYdC.gif" width="600px" />
 
 ## Installation
 ```bash
