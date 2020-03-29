@@ -7,7 +7,7 @@ class CliCorona extends Command {
   static description = 'describe the command here';
 
   async run() {
-    const country: string = await cli.prompt('country name', {
+    const country: string = await cli.prompt('Country Name', {
       default: 'all',
       required: false
     });

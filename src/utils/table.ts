@@ -1,6 +1,5 @@
 import cli from 'cli-ux';
 import chalk from 'chalk';
-// @ts-ignore
 import TableCLI from 'cli-table';
 import { string } from "@oclif/command/lib/flags";
 
@@ -12,8 +11,8 @@ export default class Table {
 
     const table = new TableCLI({
       head: [
-        chalk.blue.bold('title'),
-        chalk.blue.bold('count'),
+        chalk.blue.bold('Title'),
+        chalk.blue.bold('Count'),
       ],
       colWidths: [30, 20],
       chars: {

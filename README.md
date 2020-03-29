@@ -7,7 +7,6 @@ $ npm install -g cli-corona
 ```
 
 ## Usage
-<!-- usage -->
-```sh-session
+```bash
 $ corona
 ```
