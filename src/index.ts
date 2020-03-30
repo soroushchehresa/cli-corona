@@ -1,5 +1,7 @@
 import { Command, flags } from '@oclif/command';
 import cli from 'cli-ux';
+import _ from 'lodash';
+import chalk from 'chalk';
 import data from './utils/data';
 import table from './utils/table';
 
@@ -32,7 +34,12 @@ class CliCorona extends Command {
       covidData = await data.get(country);
     }
 
-    await table.draw(covidData);
+    const message = _.get(covidData, ['data', 'message']);
+    if (message) {
+      this.log(chalk.blue.redBright(message));
+    } else {
+      await table.draw(covidData);
+    }
   }
 }
 

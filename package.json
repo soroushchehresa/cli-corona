@@ -1,7 +1,7 @@
 {
   "name": "cli-corona",
   "description": "Coronavirus statistics in the command line.",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "author": "soroushchehresa @soroushchehresa",
   "bin": {
     "corona": "./bin/run"
@@ -16,6 +16,7 @@
     "chalk": "^3.0.0",
     "cli-table": "^0.3.1",
     "cli-ux": "^5.4.5",
+    "lodash": "^4.17.15",
     "novelcovid": "^1.0.7-b3",
     "numeral": "^2.0.6",
     "tslib": "^1"
