@@ -15,6 +15,11 @@
 
 > Coronavirus statistics in the command line.
 
+## Features
+- 🚀 Get worldwide Coronavirus disease (COVID-19) reporting
+- 🤯 Active daily reporting of your country's COVID-19 statistics
+- 🗃️ Data: Country, Cases, Deaths, Recovered, Active, Critical, Per Million
+
 ## Installation
 > Install globally (recommended).
 ```bash
@@ -44,3 +49,9 @@ $ corona
 $ corona -c [country name]
 ```
 <img src="https://i.imgur.com/7gIWtw7.gif" width="600px" />
+
+## This project implemented by the following technologies
+* [Node.js](https://github.com/nodejs/node)
+* [TypeScript](https://github.com/microsoft/TypeScript)
+* [oclif](https://github.com/oclif/oclif)
+
