@@ -2,7 +2,7 @@
 <br>
 <br>
 <div align="center">
-  <img src="https://i.imgur.com/2vnaNkL.png" width="30%" />
+  <img src="https://i.imgur.com/2vnaNkL.png" width="25%" />
 </div>
 <br>
 <br>
@@ -25,7 +25,7 @@
 ```bash
 $ npm install -g cli-corona
 ```
-<img src="https://i.imgur.com/mn4KouV.gif" width="600px" />
+<img src="https://i.imgur.com/74VtGlX.gif" width="600px" />
 
 <br>
 
