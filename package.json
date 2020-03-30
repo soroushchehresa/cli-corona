@@ -1,7 +1,7 @@
 {
   "name": "cli-corona",
   "description": "Coronavirus statistics in the command line.",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "author": "soroushchehresa @soroushchehresa",
   "bin": {
     "corona": "./bin/run"
