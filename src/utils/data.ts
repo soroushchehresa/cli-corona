@@ -1,8 +1,8 @@
 import * as covid from 'novelcovid';
 
 export default class Data {
-  static async get(country: string) {
-    let covidData = null;
+  static async get(country: string): Promise<{data: object}> {
+    let covidData: object = {};
     if (country === 'all') {
       covidData = await covid.getAll();
     } else {

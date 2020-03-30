@@ -6,9 +6,8 @@ import { string } from "@oclif/command/lib/flags";
 type ColItem = string[];
 
 export default class Table {
-  static async draw({ data }) {
+  static async draw({ data }: {data: object}): Promise<void> {
     const cols = this.renderColumns(data);
-
     const table = new TableCLI({
       head: [
         chalk.blue.bold('Title'),
@@ -22,11 +21,8 @@ export default class Table {
         , 'right': '║', 'right-mid': '╢', 'middle': '│',
       }
     });
-
     table.push(...cols);
-
     console.log(table.toString());
-
     cli.action.stop('Done');
   }
 
