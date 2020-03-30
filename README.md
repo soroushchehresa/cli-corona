@@ -15,14 +15,32 @@
 
 > Coronavirus statistics in the command line.
 
-<img src="https://i.imgur.com/aevNYdC.gif" width="600px" />
-
 ## Installation
+> Install globally (recommended).
 ```bash
 $ npm install -g cli-corona
 ```
+<img src="https://i.imgur.com/Z3H8B4f.gif" width="600px" />
 
-## Usage
+<br>
+
+> Or run directly with npx (installs CLI on every run).
+```bash
+$ npx cli-corona
+```
+<img src="https://i.imgur.com/6LRH6hs.gif" width="600px" />
+
+## Usage 
+> Run with CLI interface
 ```bash
 $ corona
 ```
+<img src="https://i.imgur.com/MVokK9r.gif" width="600px" />
+
+<br>
+
+> Or run directly with the country flag
+```bash
+$ corona -c [country name]
+```
+<img src="https://i.imgur.com/7gIWtw7.gif" width="600px" />
