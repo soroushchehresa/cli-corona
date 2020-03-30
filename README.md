@@ -50,8 +50,7 @@ $ corona -c [country name]
 ```
 <img src="https://i.imgur.com/7gIWtw7.gif" width="600px" />
 
-## This project implemented by the following technologies
+## Technologies
 * [Node.js](https://github.com/nodejs/node)
 * [TypeScript](https://github.com/microsoft/TypeScript)
-* [oclif](https://github.com/oclif/oclif)
 
