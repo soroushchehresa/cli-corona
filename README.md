@@ -13,7 +13,7 @@
 ![npm](https://img.shields.io/npm/dt/cli-corona)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-> Coronavirus statistics in the command line.
+> Track the COVID-19 (2019 novel Coronavirus) in the command line.
 
 ## Features
 - 🚀 Get worldwide Coronavirus disease (COVID-19) reporting
