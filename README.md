@@ -31,7 +31,7 @@ $ npx cli-corona
 <img src="https://i.imgur.com/6LRH6hs.gif" width="600px" />
 
 ## Usage 
-> Run with CLI interface
+> Run with the CLI interface
 ```bash
 $ corona
 ```
