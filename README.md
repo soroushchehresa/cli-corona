@@ -25,7 +25,7 @@
 ```bash
 $ npm install -g cli-corona
 ```
-<img src="https://i.imgur.com/Z3H8B4f.gif" width="600px" />
+<img src="https://i.imgur.com/mn4KouV.gif" width="600px" />
 
 <br>
 
