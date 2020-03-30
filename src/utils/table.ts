@@ -1,7 +1,6 @@
 import cli from 'cli-ux';
 import chalk from 'chalk';
 import TableCLI from 'cli-table';
-import { string } from "@oclif/command/lib/flags";
 
 type ColItem = string[];
 
@@ -19,7 +18,7 @@ export default class Table {
         , 'bottom': '═', 'bottom-mid': '╧', 'bottom-left': '╚', 'bottom-right': '╝'
         , 'left': '║', 'left-mid': '╟', 'mid': '─', 'mid-mid': '┼'
         , 'right': '║', 'right-mid': '╢', 'middle': '│',
-      }
+      },
     });
     table.push(...cols);
     console.log(table.toString());

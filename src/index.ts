@@ -21,16 +21,15 @@ class CliCorona extends Command {
   async run() {
     const { flags } = this.parse(CliCorona);
     let covidData: {data: object} = { data: {} };
-
-    cli.action.start('Fetching Statistics');
-
     if (flags.country) {
+      cli.action.start('Fetching Statistics');
       covidData = await data.get(flags.country);
     } else {
       const country: string = await cli.prompt('Country Name', {
         default: 'all',
         required: false
       });
+      cli.action.start('Fetching Statistics');
       covidData = await data.get(country);
     }
 
