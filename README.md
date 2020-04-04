@@ -23,7 +23,11 @@
 ## Installation
 > Install globally (recommended).
 ```bash
+# Using npm
 $ npm install -g cli-corona
+
+# Using Yarn
+$ yarn global add cli-corona
 ```
 <img src="https://i.imgur.com/74VtGlX.gif" width="600px" />
 
