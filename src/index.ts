@@ -35,7 +35,7 @@ class CliCorona extends Command {
 
     const message = _.get(covidData, ['data', 'message']);
     if (message) {
-      this.log(chalk.bold.redBright(message));
+      this.log(chalk.bold.red(message));
     } else {
       await table.draw(covidData);
     }
