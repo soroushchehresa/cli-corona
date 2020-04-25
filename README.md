@@ -16,9 +16,18 @@
 > Track the COVID-19 (2019 novel Coronavirus) in the command line.
 
 ## Features
-- 🚀 Get worldwide Coronavirus disease (COVID-19) reporting
-- 🤯 Active daily reporting of your country's COVID-19 statistics
-- 🗃️ Data: Country, Cases, Deaths, Recovered, Active, Critical, Per Million
+- Daily reporting of worldwide Coronavirus statistics.
+- Daily reporting of the countries Coronavirus statistics.
+
+## Data
+- Country
+- Cases
+- Deaths
+- Recovered
+- Active
+- Critical
+- Per Million
+- etc
 
 ## Installation
 > Install globally (recommended).
