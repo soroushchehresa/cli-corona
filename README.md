@@ -8,12 +8,13 @@
 <br>
 <br>
 
+<div align="center">
 # Coronavirus CLI 
 [![NPM](https://img.shields.io/npm/v/cli-corona.svg)](https://www.npmjs.com/package/cli-corona)
 ![npm](https://img.shields.io/npm/dt/cli-corona)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-
 > Track the COVID-19 (2019 novel Coronavirus) in the command line.
+</div>
 
 ## Features
 - Daily reporting of worldwide Coronavirus statistics.
