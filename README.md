@@ -13,6 +13,7 @@
 Track the COVID-19 (2019 novel Coronavirus) in the command line.
 <br>
 <br>
+<br>
 </div>
 
 ## Features
