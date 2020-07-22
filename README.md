@@ -68,4 +68,3 @@ $ corona -c [country name]
 * [Node.js](https://github.com/nodejs/node)
 * [TypeScript](https://github.com/microsoft/TypeScript)
 * [oclif](https://github.com/oclif/oclif)
-

@@ -8,7 +8,12 @@ export default class Data {
     if (country === 'all') {
       covidData = await api.all();
     } else {
-      covidData = await api.countries({ country, allowNull: false, sort: 'cases', strict: false });
+      covidData = await api.countries({
+        allowNull: false,
+        sort: 'cases',
+        strict: false,
+        country,
+      });
     }
     return { data: covidData };
   }
