@@ -28,7 +28,7 @@ Track the COVID-19 (2019 novel Coronavirus) statistics in the command line.
 - Active
 - Critical
 - Per Million
-- etc
+- ...
 
 ## Installation
 > Install globally (recommended).
